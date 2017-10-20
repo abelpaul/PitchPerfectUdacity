@@ -39,7 +39,6 @@
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="StopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rlw-AC-0ad"/>
-                                    <segue destination="Xco-b5-xaj" kind="show" id="kOc-t5-pnZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -59,20 +58,21 @@
                         <outlet property="RecordingLabel" destination="oJI-d8-SNW" id="yN2-Ww-38M"/>
                         <outlet property="recordButton" destination="H1P-GZ-X4s" id="ObW-6f-Zx2"/>
                         <outlet property="stopRecordingButton" destination="D1I-tB-mB3" id="bWP-ox-Cwi"/>
+                        <segue destination="Xco-b5-xaj" kind="show" identifier="stopRecording" id="KWy-Ql-szf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="260" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="DWP-Cb-MxL">
             <objects>
-                <viewController id="Xco-b5-xaj" sceneMemberID="viewController">
+                <viewController id="Xco-b5-xaj" customClass="PlaySoundsViewController" customModule="PitchPerfectUdacity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YUp-rG-34g">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.036055121927926412" green="0.75074886659999995" blue="0.65487743087974748" alpha="0.74290272887323938" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.81537402851709839" blue="0.68425195369827929" alpha="0.74290272887323938" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="uha-UY-srr"/>
                     </view>
                 </viewController>
