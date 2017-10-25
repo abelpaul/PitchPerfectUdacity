@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		464432B51FA0E6AB00CF5A23 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464432B41FA0E6AB00CF5A23 /* playsoundsviewcontroller-audio.swift */; };
 		465216CB1F97A2FE00D59428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465216CA1F97A2FE00D59428 /* AppDelegate.swift */; };
 		465216CD1F97A2FE00D59428 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465216CC1F97A2FE00D59428 /* RecordSoundsViewController.swift */; };
 		465216D01F97A2FE00D59428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465216CE1F97A2FE00D59428 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		464432B41FA0E6AB00CF5A23 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 		465216C71F97A2FE00D59428 /* PitchPerfectUdacity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfectUdacity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		465216CA1F97A2FE00D59428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		465216CC1F97A2FE00D59428 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
@@ -58,11 +60,12 @@
 			children = (
 				465216CA1F97A2FE00D59428 /* AppDelegate.swift */,
 				465216CC1F97A2FE00D59428 /* RecordSoundsViewController.swift */,
+				46592A2F1F9A5855002AA087 /* PlaySoundsViewController.swift */,
 				465216CE1F97A2FE00D59428 /* Main.storyboard */,
+				464432B41FA0E6AB00CF5A23 /* playsoundsviewcontroller-audio.swift */,
 				465216D11F97A2FF00D59428 /* Assets.xcassets */,
 				465216D31F97A2FF00D59428 /* LaunchScreen.storyboard */,
 				465216D61F97A2FF00D59428 /* Info.plist */,
-				46592A2F1F9A5855002AA087 /* PlaySoundsViewController.swift */,
 			);
 			path = PitchPerfectUdacity;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				465216CD1F97A2FE00D59428 /* RecordSoundsViewController.swift in Sources */,
 				46592A301F9A5855002AA087 /* PlaySoundsViewController.swift in Sources */,
 				465216CB1F97A2FE00D59428 /* AppDelegate.swift in Sources */,
+				464432B51FA0E6AB00CF5A23 /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
