@@ -11,7 +11,7 @@ import AVFoundation
 
 class PlaySoundsViewController: UIViewController {
     
-    
+
     
     @IBOutlet weak var snailButton: UIButton!
     @IBOutlet weak var chipmunkButton: UIButton!
