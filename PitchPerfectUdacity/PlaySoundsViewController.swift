@@ -21,6 +21,7 @@ class PlaySoundsViewController: UIViewController {
     @IBOutlet weak var reverbButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
     
+    // importing variables from AVFoundation
     var recordedAudioURL:URL!
     var audioFile:AVAudioFile!
     var audioEngine:AVAudioEngine!
@@ -31,7 +32,7 @@ class PlaySoundsViewController: UIViewController {
         case slow = 0, fast=1, chipmunk=2, vader=3, echo=4, reverb=5
     }
     
-    
+    // this button maps all sound rates for each sound effect button
     @IBAction func  playSoundForButton( sender: UIButton) {
         switch(ButtonType(rawValue: sender.tag)!) {
         case .slow:
@@ -50,7 +51,7 @@ class PlaySoundsViewController: UIViewController {
         
         configureUI(.playing)
     }
-    
+    // this function allows the stop button to be pressed and stops the audio from being played
     @IBAction func  stopButtonPress( sender: UIButton) {
     stopAudio()
         

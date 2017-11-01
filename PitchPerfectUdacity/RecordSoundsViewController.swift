@@ -31,7 +31,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     
     }
 
-
+// This is the function for the record button which then stores the data in a .wav file
 
     @IBAction func RecordAudio(_ sender: AnyObject) {
         RecordingLabel.text = "recording in progress"
@@ -53,6 +53,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         
         
     }
+    // this is a stop recording function
     @IBAction func StopRecording(_ sender: AnyObject) {
         RecordingLabel.text = "Tap to Record"
         stopRecordingButton.isEnabled = false
@@ -70,6 +71,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         }
    
     }
+    // this segues the recordViewController into the Playsounds viewcontroller
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "stopRecording" {
             let playSoundsVC = segue.destination as! PlaySoundsViewController
