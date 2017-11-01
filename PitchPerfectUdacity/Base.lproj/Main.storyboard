@@ -86,7 +86,7 @@
                                                     <action selector="playSoundForButtonWithSender:" destination="Xco-b5-xaj" eventType="touchUpInside" id="5Cy-Ir-hHa"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIL-5J-BHn" userLabel="Fast Button">
+                                            <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIL-5J-BHn" userLabel="Fast Button">
                                                 <rect key="frame" x="207" y="0.0" width="207" height="189.33333333333334"/>
                                                 <state key="normal" image="Fast"/>
                                                 <connections>
@@ -98,14 +98,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2bW-9J-Ff1">
                                         <rect key="frame" x="0.0" y="189.33333333333331" width="414" height="189.33333333333331"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfG-nf-NJB" userLabel="High Pitch Button">
+                                            <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfG-nf-NJB" userLabel="High Pitch Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="189.33333333333334"/>
                                                 <state key="normal" image="HighPitch"/>
                                                 <connections>
                                                     <action selector="playSoundForButtonWithSender:" destination="Xco-b5-xaj" eventType="touchUpInside" id="4Ze-XE-MF2"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyu-wO-abT" userLabel="Low Ptch Button">
+                                            <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyu-wO-abT" userLabel="Low Ptch Button">
                                                 <rect key="frame" x="207" y="0.0" width="207" height="189.33333333333334"/>
                                                 <state key="normal" image="LowPitch"/>
                                                 <connections>
@@ -117,14 +117,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ike-VA-6UY">
                                         <rect key="frame" x="0.0" y="378.66666666666669" width="414" height="189.33333333333331"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drv-2O-uTZ" userLabel="Echo Button">
+                                            <button opaque="NO" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drv-2O-uTZ" userLabel="Echo Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="189.33333333333334"/>
                                                 <state key="normal" image="Echo"/>
                                                 <connections>
                                                     <action selector="playSoundForButtonWithSender:" destination="Xco-b5-xaj" eventType="touchUpInside" id="hoM-zH-I1k"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9N-sP-9Lc" userLabel="Reverb Button">
+                                            <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9N-sP-9Lc" userLabel="Reverb Button">
                                                 <rect key="frame" x="207" y="0.0" width="207" height="189.33333333333334"/>
                                                 <state key="normal" image="Reverb"/>
                                                 <connections>
