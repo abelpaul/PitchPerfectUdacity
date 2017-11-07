@@ -18,20 +18,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1P-GZ-X4s">
-                                <rect key="frame" x="82.5" y="162.5" width="155" height="155"/>
+                                <rect key="frame" x="83" y="133" width="155" height="155"/>
                                 <state key="normal" image="RecordButton"/>
                                 <connections>
                                     <action selector="RecordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NBG-Uy-UUS"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap To Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJI-d8-SNW">
-                                <rect key="frame" x="105.5" y="335.5" width="110" height="21"/>
+                                <rect key="frame" x="105" y="296" width="110" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1I-tB-mB3">
-                                <rect key="frame" x="128" y="364.5" width="64" height="64"/>
+                                <rect key="frame" x="128" y="325" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="6ZN-Hy-FJg"/>
                                     <constraint firstAttribute="width" constant="64" id="rKm-Hy-IV8"/>
@@ -44,12 +44,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.1821778346" green="0.81537402849999996" blue="0.78483473879999999" alpha="0.74290272889999998" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="D1I-tB-mB3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="545-cG-d8y"/>
                             <constraint firstItem="oJI-d8-SNW" firstAttribute="centerX" secondItem="H1P-GZ-X4s" secondAttribute="centerX" id="8Cc-12-Fxy"/>
                             <constraint firstItem="H1P-GZ-X4s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AcK-66-PlF"/>
-                            <constraint firstItem="H1P-GZ-X4s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UtB-cQ-ZW0"/>
-                            <constraint firstItem="oJI-d8-SNW" firstAttribute="top" secondItem="H1P-GZ-X4s" secondAttribute="bottom" constant="18" id="gcI-va-HFH"/>
+                            <constraint firstItem="H1P-GZ-X4s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-29.5" id="UtB-cQ-ZW0"/>
+                            <constraint firstItem="oJI-d8-SNW" firstAttribute="top" secondItem="H1P-GZ-X4s" secondAttribute="bottom" constant="8" id="gcI-va-HFH"/>
                             <constraint firstItem="D1I-tB-mB3" firstAttribute="centerX" secondItem="H1P-GZ-X4s" secondAttribute="centerX" id="gw6-Ul-lLs"/>
-                            <constraint firstItem="D1I-tB-mB3" firstAttribute="top" secondItem="oJI-d8-SNW" secondAttribute="bottom" constant="8" symbolic="YES" id="q3X-as-dMt"/>
+                            <constraint firstItem="D1I-tB-mB3" firstAttribute="top" secondItem="oJI-d8-SNW" secondAttribute="bottom" constant="8" id="q3X-as-dMt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
