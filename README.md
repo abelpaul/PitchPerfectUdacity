@@ -14,3 +14,42 @@ This is my first project in my iOS Developer Udacity Nanodegree.
 
 
 ![playsounds](https://user-images.githubusercontent.com/22419254/32277095-c0349022-bee7-11e7-9610-ee3adb10d1b6.gif)
+
+
+### Prerequisites
+
+Swift Basics
+
+```
+View Controllers
+Buttons
+Segues
+UIKit
+AutoLayout
+```
+
+
+
+
+## Deployment
+
+Run in Xcode Simulator
+
+## Built With
+
+* [XCode]
+
+
+
+
+#
+## Authors
+
+* **Abel George** 
+
+
+
+## Acknowledgments
+
+* Udacity
+
